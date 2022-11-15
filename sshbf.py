@@ -4,8 +4,8 @@ import paramiko
 
 tprint("SSH.bf",font="random")    #Banner
 
-host = input("Enter the IP: "
-username =input("Enter the username: "
+host = input("Enter the IP: ")
+username = input("Enter the username: ")
 attempts = 0
 
 
