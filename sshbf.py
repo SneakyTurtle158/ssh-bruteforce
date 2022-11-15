@@ -9,7 +9,7 @@ username = input("Enter the username: ")
 attempts = 0
 
 
-file = input("Enter the password dictionary file path: "
+file = input("Enter the password dictionary file path: ")
 with open(file, "r") as password_list:
     for password in password_list:
         password = password.strip("\n")
